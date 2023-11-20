@@ -19,6 +19,9 @@ hero:
     - theme: brand
       text: jvm
       link: /indexPages/jvm
+    - theme: brand
+      text: RocketMQ
+      link: https://docs.qq.com/pdf/DWVhyWk1jTHBJVXRl?
 
 #features:
 #  - title: Feature A
