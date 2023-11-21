@@ -294,7 +294,7 @@ public class RectangleDemo {
 
 如何改进呢？此时我们需要重新设计他们之间的关系。抽象出来一个四边形接口(Quadrilateral)，让Rectangle类和Square类实现Quadrilateral接口
 
-<img src="img\正方形不是长方形改进.png" style="zoom:80%;" />
+<img src=".\img\正方形不是长方形改进.png" style="zoom:80%;" />
 
 
 
@@ -310,7 +310,7 @@ public class RectangleDemo {
 
 **类图如下：**
 
-<img src="img\依赖倒转原则.png" style="zoom:80%;" />
+<img src="./img/依赖倒转原则.png" style="zoom:80%;" />
 
 代码如下：
 
