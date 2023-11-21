@@ -442,7 +442,7 @@ public class PrototypeTest {
 
 类图如下：
 
-<img src="img\原型模式1.png" style="zoom:80%;" />
+<img src=".\img\原型模式1.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -573,7 +573,7 @@ public class CitationTest {
 
 运行结果为：
 
-<img src="img\原型模式2.png" style="zoom:80%;" />
+<img src=".\img\原型模式2.png" style="zoom:80%;" />
 
 <font color="red">说明：</font>
 
@@ -611,7 +611,7 @@ public class CitationTest1 {
 
 运行结果为：
 
-<img src="img\原型模式3.png" style="zoom:80%;" />
+<img src=".\img\原型模式3.png" style="zoom:80%;" />
 
 > 注意：Citation类和Student类必须实现Serializable接口，否则会抛NotSerializableException异常。
 
