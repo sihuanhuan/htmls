@@ -466,7 +466,7 @@ public class Client {
 
 类图如下：
 
-<img src="img/适配器模式.png" style="zoom:80%;" />
+<img src=".\img\适配器模式.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -688,7 +688,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 类图如下：
 
-<img src="img/装饰者模式.png" style="zoom:75%;" />
+<img src=".\img\装饰者模式.png" style="zoom:75%;" />
 
 代码如下：
 
@@ -1057,7 +1057,7 @@ public class Client {
 
 小明的爷爷已经60岁了，一个人在家生活：每次都需要打开灯、打开电视、打开空调；睡觉时关闭灯、关闭电视、关闭空调；操作起来都比较麻烦。所以小明给爷爷买了智能音箱，可以通过语音直接控制这些智能家电的开启和关闭。类图如下：
 
-<img src="img/外观模式.png" style="zoom:80%;" />
+<img src=".\img\外观模式.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1170,11 +1170,11 @@ public class Client {
 
 使用tomcat作为web容器时，接收浏览器发送过来的请求，tomcat会将请求信息封装成ServletRequest对象，如下图①处对象。但是大家想想ServletRequest是一个接口，它还有一个子接口HttpServletRequest，而我们知道该request对象肯定是一个HttpServletRequest对象的子实现类对象，到底是哪个类的对象呢？可以通过输出request对象，我们就会发现是一个名为RequestFacade的类的对象。
 
-<img src="img/image-20200207234545691.png" style="zoom:60%;" />
+<img src=".\img\image-20200207234545691.png" style="zoom:60%;" />
 
 RequestFacade类就使用了外观模式。先看结构图：
 
-<img src="img/外观模式-jdk源码解析.png" style="zoom:70%;" />
+<img src=".\img\外观模式-jdk源码解析.png" style="zoom:70%;" />
 
 **为什么在此处使用外观模式呢？**
 

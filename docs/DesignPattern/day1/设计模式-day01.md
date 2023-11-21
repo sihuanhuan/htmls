@@ -420,7 +420,7 @@ public class TestComputer {
 
 **类图如下：**
 
-<img src="img/依赖倒转原则改进.png" alt="image-20191229173554296" style="zoom:70%;" />
+<img src=".\img\依赖倒转原则改进.png" alt="image-20191229173554296" style="zoom:70%;" />
 
 **电脑（Computer）：**
 
@@ -560,7 +560,7 @@ public class ItcastSafetyDoor implements AntiTheft,Fireproof {
 
 类图如下：
 
-<img src="img/迪米特法则.png" alt="image-20191229173554296" style="zoom:80%;" />
+<img src=".\img\迪米特法则.png" alt="image-20191229173554296" style="zoom:80%;" />
 
 代码如下：
 
@@ -669,11 +669,11 @@ public class Agent {
 
 汽车按“动力源”划分可分为汽油汽车、电动汽车等；按“颜色”划分可分为白色汽车、黑色汽车和红色汽车等。如果同时考虑这两种分类，其组合就很多。类图如下： 
 
-<img src="img/合成复用原则.png" alt="image-20191229173554296" style="zoom:80%;" />
+<img src=".\img\合成复用原则.png" alt="image-20191229173554296" style="zoom:80%;" />
 
 从上面类图我们可以看到使用继承复用产生了很多子类，如果现在又有新的动力源或者新的颜色的话，就需要再定义新的类。我们试着将继承复用改为聚合复用看一下。
 
-<img src="img/合成复用原则1.png" alt="image-20191229173554296" style="zoom:80%;" />
+<img src=".\img\合成复用原则1.png" alt="image-20191229173554296" style="zoom:80%;" />
 
 
 
