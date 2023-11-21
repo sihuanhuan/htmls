@@ -17,7 +17,9 @@ export default defineConfig({
         text: 'Java',
         items: [
           { text: 'Spring', link: '/spring6/spring6' },
-          { text: 'JVM', link: '/indexPages/jvm' }
+          { text: 'JVM', link: '/indexPages/jvm' },
+          { text: 'RocketMQ',link: 'https://docs.qq.com/pdf/DWVhyWk1jTHBJVXRl?'},
+          { text: '设计模式',link: '/DesignPattern/index'}
         ]
       }
     ],

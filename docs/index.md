@@ -22,6 +22,9 @@ hero:
     - theme: brand
       text: RocketMQ
       link: https://docs.qq.com/pdf/DWVhyWk1jTHBJVXRl?
+    - theme: brand
+      text: 设计模式
+      link: /DesignPattern/index
 
 #features:
 #  - title: Feature A
