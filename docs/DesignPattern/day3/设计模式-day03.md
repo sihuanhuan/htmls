@@ -40,7 +40,7 @@ Java中的代理按照代理类生成时机不同又分为静态代理和动态�
 
 如果要买火车票的话，需要去火车站买票，坐车到火车站，排队等一系列的操作，显然比较麻烦。而火车站在多个地方都有代售点，我们去代售点买票就方便很多了。这个例子其实就是典型的代理模式，火车站是目标对象，代售点是代理对象。类图如下：
 
-<img src="img\静态代理.png" style="zoom:80%;" />
+<img src=".\img\静态代理.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -564,7 +564,7 @@ public class Client {
 
 我们使用对象适配器模式将读卡器的案例进行改写。类图如下：
 
-<img src="img\对象适配器模式.png" style="zoom:80%;" />
+<img src=".\img\对象适配器模式.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -877,7 +877,7 @@ public class Demo {
 
 使用起来感觉确实像是装饰者模式，接下来看它们的结构：
 
-<img src="img\装饰者模式-jdk源码.png" style="zoom:80%;" />
+<img src=".\img\装饰者模式-jdk源码.png" style="zoom:80%;" />
 
 > <font color="red">小结：</font>
 >
@@ -940,7 +940,7 @@ public class Demo {
 
 类图如下：
 
-<img src="img\桥接模式.png" style="zoom:80%;" />
+<img src=".\img\桥接模式.png" style="zoom:80%;" />
 
 代码如下：
 
